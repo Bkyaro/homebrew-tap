@@ -5,8 +5,6 @@ class Whatthegit < Formula
   sha256 "fa15ad3195198b186cae827d106675fa25af7f1d72168933cfdb44834022e0cc"
   license "MIT"
 
-  depends_on "git"
-
   def install
     bin.install "whatthegit"
     bin.install_symlink "whatthegit" => "wtg"
